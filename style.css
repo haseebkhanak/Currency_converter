@@ -1,0 +1,63 @@
+.container{
+    margin-top: 100px;
+}
+
+.btn{
+    width: 10vw;
+    margin-left: 490px;
+    font-size: 25px;
+}
+
+.badge{
+    padding: 15px;
+    margin-left: 420px;
+    font-size: 30px;
+}
+
+.icon{
+    margin-left: 540px;
+    margin-top: 30px;
+}
+
+body{
+    background-color: rgb(13, 14, 13);
+}
+
+.main1{
+    position: relative;
+}
+
+#img1{
+    position: absolute;
+    margin-top: -7px;
+    margin-left: 40px;
+}
+
+.main2{
+    position: relative;
+}
+
+#img2{
+    position: absolute;
+    margin-top: -7px;
+    margin-left: 40px;
+}
+@media (max-width:500px) {
+    .badge{
+        padding: 15px;
+        margin-left: 75px;
+        font-size: 22px;
+    }
+
+    .icon{
+        margin-left: 180px;
+        margin-top: 30px;
+    }
+
+    .btn{
+        width: 25vw;
+        margin-left: 140px;
+        font-size: 20px;
+    }
+    
+}
